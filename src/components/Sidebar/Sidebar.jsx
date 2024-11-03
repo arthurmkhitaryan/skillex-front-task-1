@@ -74,12 +74,14 @@ function Sidebar() {
       </S.Select>
       <S.Input
         type="number"
+        data-testid="minPrice"
         placeholder="Min Price"
         value={minPrice}
         onChange={(e) => setMinPrice(Number(e.target.value))}
       />
       <S.Input
         type="number"
+        data-testid="maxPrice"
         placeholder="Max Price"
         value={maxPrice}
         onChange={(e) => setMaxPrice(Number(e.target.value))}

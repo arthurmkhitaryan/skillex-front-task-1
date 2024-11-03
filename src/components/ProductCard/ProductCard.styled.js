@@ -29,7 +29,7 @@ export const ProductInfo = styled.div`
   margin-bottom: 25px;
 `;
 
-export const ProductName = styled.h4`
+export const ProductName = styled.h3`
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: nowrap;

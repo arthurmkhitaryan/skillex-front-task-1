@@ -19,6 +19,7 @@ function ProductList({ products }) {
       <S.PaginationContainer>
         {Array.from({ length: totalPages }, (_, index) => (
           <S.PageButton
+            data-testid='page-btn'
             key={index + 1}
             onClick={() => setCurrentPage(index + 1)}
             active={currentPage === index + 1}
